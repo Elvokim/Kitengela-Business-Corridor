@@ -1,0 +1,25 @@
+# Webinerds - Robots Exclusion Standard
+# https://www.robotstxt.org/
+
+User-agent: *
+
+# Allow search engines to crawl the public website
+Allow: /
+
+# Block private/system directories
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /config/
+Disallow: /database/
+Disallow: /uploads/private/
+
+# Block development and temporary files
+Disallow: /test/
+Disallow: /testing/
+Disallow: /backup/
+Disallow: /backups/
+Disallow: /tmp/
+
+# Sitemap
+# Add the production sitemap URL once the domain is confirmed.
+# Sitemap: https://yourdomain.com/sitemap.xml
